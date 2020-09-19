@@ -41,6 +41,7 @@ body {
 }
 
 /* Section A */
+
 .section-a {
   background-color: white;
 }
@@ -64,13 +65,13 @@ body {
 }
 
 /* Section B */
+
 .section-b {
   background-color: var(--primary-color-cyan);
   color: #fff;
 }
 
-.section-b h2,
-.section-c h2 {
+.section-b h2, .section-c h2 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
@@ -108,6 +109,7 @@ body {
 }
 
 /* Section C */
+
 .section-c {
   background-color: #4abebd;
 }
@@ -164,12 +166,9 @@ footer a:hover {
   .card .section-a {
     grid-area: 1/1/2/4;
   }
-
-  .card .section-b,
-  .card .section-c {
+  .card .section-b, .card .section-c {
     grid-row: 2;
   }
-
   .section-b .btn {
     margin-bottom: 1.3rem;
   }
